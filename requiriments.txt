@@ -1,0 +1,4 @@
+flask
+flask-sqlachemy
+flask-smorest
+python-dotenv
