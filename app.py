@@ -4,7 +4,7 @@ from flask_smorest import Api
 
 from db import db
 import os
-from resources.task import blp as TaskBlueprint
+from resources.routes import blp as TaskBlueprint
 
 def create_app(db_url=None):
     app = Flask(__name__)
